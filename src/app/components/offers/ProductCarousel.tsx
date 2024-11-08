@@ -1,6 +1,6 @@
 "use client";
+
 import React from "react";
-import Carousel from "../Carousel"; // Import Carousel component
 
 const ProductCarousel = () => {
   const products = [
@@ -44,7 +44,8 @@ const ProductCarousel = () => {
   return (
     <div className="container mx-auto px-4">
       <h2 className="text-2xl font-bold mb-4">Featured Products</h2>
-      <Carousel items={products} interval={3000} />
+      {/* Remove or correct this import
+      // <Carousel items={products} interval={3000} /> */}
     </div>
   );
 };
